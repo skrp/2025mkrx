@@ -1,0 +1,96 @@
+Meri Kann cibR punX
+unix network kernel
+
+This work describes & details a unix network built with the mission to create anonymous machines which network together to allow file sharing, communication and secure connection.
+
+The nature of both the machine node & the network are disposable. This nature keeps the footprint low which enhances the anonymity of the user. Nodes are quickly wipes. Nodes have a protocol to be introduced into the Network. Network has a clear and simple process of propagation from code to a fully functioning network.
+
+
+Preserve all insight
+Till the last man walk
+
+That he might not walk
+In the darkness of past
+
+Independent of 
+Time wealth or government
+
+
+####################################################
+# SICC System In Complete Chaos File System
+####################################################
+
+MISSION
+System in Complete Chaos uses obfuscation to establish a network file system that a user with access keys to a node may obtain via encrypted tunnels.
+To obtain a specific file there are three necessary components: 
+  Metadata which contains filename, encoding, size, and archive index. 
+  Data parts associate with the file
+  FKEY which is the sequence of parts required to build a complete file.
+
+DATA
+The heart of the system is in the wealth of data. 
+The unix kernel and network implementations center around data archiving. 
+Each file is split into parts and stored as unassociated parts spread over the network pool.
+Each part of the file is then isolated from the whole. 
+This sets all file parts equal and unbiased. 
+To preserve any file the entire network pool must be preserved. 
+The mission is to keep data public yet to isolate the individual node from responsibility of the data hosted.
+
+LIABILITY
+The purpose of the system to to isolate the operator of the node from the data hosted on the node. The entire pool contains only parts of files that are unknown & unassociated to the operator of the node.
+There is no association if exist more than one part of the same file.
+The operator then is less liable for the data hosted. The operator may choose to implement protocols to have the system manage the data present at any time.
+The operator may set a pool refresh cycle. This keeps the data moving which narrows the window of action that a government can access the data on the specific node. 
+
+METHOD
+Each file is processed by a standard protocols. 
+The file is split into parts and propagated into a pool of data which exists across the network. 
+WORLD is the only place that the file exists whole is in a secured private user community and in offline backup drives.  
+FKEY is the sequence of parts that compile the file. This maps a file to its various isolate parts. Without this sequence a file has no method to be built. 
+FKEY is transferred via usb to a designated archive location. This is done via an offline-usb transfer to keep the critical component immune to interception or snoops.
+
+NODE
+Each node may have entire control over the size of the pool of data offered and also the files offered by the node. 
+Each node carries a partial section of the network pool. This entire section only stores disassociated file parts which were split across the network.
+The node periodically reports the contents of the pool which users compile into a file census to determine level of duplication and maps the file part to the set of nodes which host it.
+Nodes may offer a WORLD file space which host complete files. The compiled file space is entirely isolated from the file parts of the network pool. 
+
+NETWORK
+CENSUS keeps a live accounting of the pool contents of each node compiled into a grand map.
+Users access a CENSUS node to locate the set of nodes which contain the file part.
+META node keeps a database associating: filename, encoding, size, and archive index. Users search this database to map the complete file digest to the file FKEY, which contains the sequence to build the file.
+BASTION node uses offline-only usb transfers of FKEY to obtain the sequence of a file in a way that adds a layer of protection to the critical nature of the FKEY. 
+
+SEED
+BACKUP off-line backup drives contain complete compiled files.
+In event of propagation or network corruption or network dissolution; the entire pool can be rebuilt using the backup drives to seed a new network pool of data.
+BACKUP drives get connected to a node then the files are split into parts. Those parts are then distributed to various nodes to restore a network pool.
+
+PROCESS
+Extract files from an external non-network source.
+Slice the file into parts.
+Transfer the parts to various nodes via obfuscation protocols.
+Verify integrity of file part. 
+Build file from a sequence of parts, each part found on different nodes.
+
+CENSUS
+Each node has a file pool that can be listed & verified by any user with access.
+This adds an independent check to archive integrity.
+File pool lists are compiled into a network list. This is compiled into a network wide map of file part to all the nodes which host that file part.
+Duplication is calculated and then users can duplicate files as required.
+Duplication on this system is always explicit & controlled. This method keeps the archive at maximum efficiency.
+
+FILE
+File parts are named after their unique file digest. This is a mathematical algorithm that ensures, based on the binary content, each unique file part has a unique file name. 
+If the file digest is computed and it does not match the name then corruption is immediately detected. 
+In this naming system, duplicate files are immediately detected because the digest will be the same. Hence, the system will detect duplications naturally.
+
+POOL
+Many different file pools can exist.
+Known metadata only files ensure that the file has been processed and is acceptable to a group.
+Massive obfuscation which compiles many different pools with intent for higher security.
+
+Mathematic Structures
+SICC C code: Extract, Slice, Verify, Build
+Network C code: scp, propagate
+MKRX C code: Census, Auto_Pool_Cycle, Metadata, Bounty
